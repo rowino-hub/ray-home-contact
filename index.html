@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | RayHome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Ray<span>Home</span></a>
+
+        <a href="index.html" class="back-home">
+            <i class="fa-solid fa-arrow-left"></i> Back to Home
+        </a>
+    </header>
+    <main>
+        <section class="contact-section">
+
+            <div class="heading">
+                <h1>Contact <span>Us</span></h1>
+                <p>Have a question? We'd love to hear from you.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Let's Talk</h2>
+
+                    <p class="description">
+                        Whether you have a question, need assistance, or
+                        want to work with us, send us a message.
+                        We're happy to help.
+                    </p>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                        </div>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>Kenya</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                        
+                        </div>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p>yourname@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                    
+                        </div>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <p>+254 700 000 000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+
+                    <form id="contactForm">
+
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What is your message about?"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Your Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Write your message here..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-message" id="formMessage"
+                           role="status" aria-live="polite"></p>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2026 <span>RayHome</span>. All rights reserved.
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+</html>
