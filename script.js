@@ -23,3 +23,17 @@
             formMessage.classList.add("show");
             contactForm.reset();
         });
+let search = document.getElementById("search");
+let homes = document.querySelectorAll(".home");
+
+search.addEventListener("input", function() {
+    let value = search.value.toLowerCase();
+
+    homes.forEach(function(home) {
+        if (home.textContent.toLowerCase().includes(value)) {
+            home.style.display = "block";
+        } else {
+            home.style.display = "none";
+        }
+    });
+});
